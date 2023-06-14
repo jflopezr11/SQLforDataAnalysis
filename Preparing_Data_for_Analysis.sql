@@ -27,5 +27,6 @@ SELECT date::date
 FROM generate_series('1770-01-01'::date, '2030-12-31'::date, '1 day') as date
 ;
 
-
+SELECT *
+FROM public.date_dim
 
